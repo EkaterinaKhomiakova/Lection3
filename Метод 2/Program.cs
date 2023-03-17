@@ -1,6 +1,11 @@
 ﻿// See https://aka.ms/new-console-template for more information
-void Method2(string msg)
+void Method21(string msg, int count) 
 {
-Console.WriteLine (msg);
+    int i=0; 
+    while (i<count)
+	{
+	Console.WriteLine (msg);
+	i ++;
+	}
 }
-Method2("Текст сообщения"); 
+Method21("Текст сообщения", 4);
